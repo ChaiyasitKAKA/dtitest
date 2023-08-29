@@ -8,4 +8,5 @@ def funcA(x,y) :
 
 funcA(45, 42) #call function
 funcA(43, 5)
+print("fekl")
 funcA(3, 35)
