@@ -1,19 +1,19 @@
-def inputX():
-    x = float(input("Enter the value of x: "))
-    return x
-
-def calculateeqution(x):
+#4.จงเขียนโปรแกรมPython ของโปรแกรมแก้สมการ y = 2x2+ 2x + 1 เมื อ x คือค่าที รับทางแป้นพิมพ์ และแสดงผลจากการแก้สมการy ที ได้ทางหน้าจอ
+def SetFunction(x):
     y = 2 * x**2 + 2 * x + 1
     return y
 
-def Showresault(y) :
-    print(f" y is: {y}")
 
-print("_______________________________")
-x = inputX()
-print("_______________________________")
-y = calculateeqution(x)
-print("_______________________________")
-Showresault(y)
-print("_______________________________")
+def inputValuex():
+    x = float(input("Enter the value of x: "))
+    return x
+
+def Showy(y):
+    print(f"Equation y is:{y}")
+
+x = inputValuex()
+y = SetFunction(x)
+Showy(y)
+
+
 
