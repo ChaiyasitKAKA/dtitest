@@ -1,13 +1,19 @@
-# Define a function to calculate y based on x
+def inputX():
+    x = float(input("Enter the value of x: "))
+    return x
+
 def calculateeqution(x):
     y = 2 * x**2 + 2 * x + 1
     return y
 
-x = float(input("Enter the value of x: "))
+def Showresault(y) :
+    print(f" y is: {y}")
 
-# Calculate y using the function
+print("_______________________________")
+x = inputX()
+print("_______________________________")
+y = calculateeqution(x)
+print("_______________________________")
+Showresault(y)
+print("_______________________________")
 
-slove_y = calculateeqution(x)
-
-# Display the calculated y value
-print("The value of y is:", slove_y)
