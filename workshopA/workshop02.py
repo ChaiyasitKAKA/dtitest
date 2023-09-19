@@ -19,9 +19,16 @@ def calaverage(data_list):
     average_points = sum(all_points) / len(all_points)
     return average_points
 
+def ShowAverage(name,id,average_point):
+    print(f"Average Points  {name} (ID: {id}): {average_point}")
+
 id, name = InputidAndname()
 data_list = Inputpoint(id, name)
 average_point = calaverage(data_list)
-print(f"Average Points  {name} (ID: {id}): {average_point}")
+ShowAverage(name,id,average_point)
+
+
+
+
 
 
