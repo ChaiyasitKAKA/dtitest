@@ -4,7 +4,7 @@ def InputnameprovinceAndPH():
     PH = int(input("Enter Value PH:"))
     return name,PH
 
-def checkPH(PH,name) :
+def checkPHshow(PH,name) :
     if   PH >= 7 and PH <= 8:
         print(f"{name}: PH = {PH}:Result is Normal")
     elif PH > 8:
@@ -14,6 +14,8 @@ def checkPH(PH,name) :
     else:
         print(f"{name}: PH = {PH}: Result is Unknown")    
     
-
+print("-----------------------------")
+print("         PH TEST             ")
+print("-----------------------------")
 name,PH = InputnameprovinceAndPH()
-checkPH(PH,name)
+checkPHshow(PH,name)

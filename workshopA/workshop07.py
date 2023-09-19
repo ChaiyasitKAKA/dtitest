@@ -10,9 +10,6 @@ def InputNum():
     return guess_number
 
 def CheckNum(random_number, guess_number):
-    print("-----------------------------")
-    print("        GAME BINGO           ")
-    print("-----------------------------")
     if guess_number == random_number:
         print("----------YAY----------------")
         print("-Correct, You are the winner-")
@@ -23,6 +20,9 @@ def CheckNum(random_number, guess_number):
 def showResult(random_number):
     print(f"Random Number is: {random_number}")
 
+print("-----------------------------")
+print("        GAME BINGO           ")
+print("-----------------------------")
 random_number = Randomnumber()
 guess_number = InputNum()
 CheckNum(random_number, guess_number)
