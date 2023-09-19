@@ -9,9 +9,9 @@ def CalincomeshowsealpriceAndincome(seal_price,cost) :
     print(f"income {cal_come} Baht")
 
 
-print("----------------------")
-print("      SEALPRICE       ")
-print("----------------------")
+print("--------------------------")
+print("        SEALPRICE         ")
+print("--------------------------")
 seal_price,cost = InputAndcalCost()
 print("----------------------")
 CalincomeshowsealpriceAndincome(seal_price,cost)
