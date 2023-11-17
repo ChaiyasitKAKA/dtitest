@@ -13,4 +13,3 @@
 # คำสั่ง break กับ continue 
 # มักใช้ร่วมกับ Control f
 
-func(3, 13)
