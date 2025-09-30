@@ -10,7 +10,7 @@
 # print("wellcome the {} {} to the junger ".format(user_type,user_name))
 
 def input_smt() : 
-    return input("Enter Something:")
+    return input("Enter Something")
   
 
 def change_som(smt) :
